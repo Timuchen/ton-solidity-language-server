@@ -36,7 +36,9 @@ If you constantly need to change the server settings or you intend to contribute
 
 If you would like to customize the language server to suit your needs, download the server [source code](https://github.com/Timuchen/ton-solidity-language-server).
 
-This Language Server works for plain text file. It has the following language features:
+This server works with files _.ton and _.sol.
+
+It has the following language features:
 
 - Completions
 - Diagnostics regenerated on each file change or configuration change
@@ -68,6 +70,7 @@ It also includes an End-to-End test.
 - Press Ctrl+Shift+B to compile the client and server.
 - Switch to the Debug viewlet.
 - Select `Launch Client` from the drop down.
+  ![Screenshot](screenshots/6.png)
 - Run the launch config.
 - If you want to debug the server as well use the launch configuration `Attach to Server`
 - In the [Extension Development Host] instance of VSCode, open a document in 'plain text' language mode.
