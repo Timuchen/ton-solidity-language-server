@@ -22,10 +22,17 @@ Once installed, the TON Solidity syntax will be detected automatically.
 Files with \* .ton resolution are supported
 ![Screenshot](screenshots/3.png)
 
-By default, it is recommended to write the name of the Tone currency with a capital letter. But you can change this in the server settings.
+By default, it is recommended to write the name of the Ton currency with a capital letter. But you can change this in the server settings.
 ![Screenshot](screenshots/4.png)
 
+## Why use a server?
+
+Language Servers can be implemented in any language and run in their own process to avoid performance cost, as they communicate with the code editor through the Language Server Protocol. Furthermore, any LSP-compliant language toolings can integrate with multiple LSP-compliant code editors, and any LSP-compliant code editors can easily pick up multiple LSP-compliant language toolings. LSP is a win for both language tooling providers and code editor vendors!
+![Screenshot](screenshots/5.png)
+
 ## Features for developers
+
+If you constantly need to change the server settings or you intend to contribute to development, then install a full-fledged server from the repository.
 
 If you would like to customize the language server to suit your needs, download the server [source code](https://github.com/Timuchen/ton-solidity-language-server).
 
