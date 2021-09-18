@@ -10,7 +10,7 @@ Most likely, your favorite IDE has already enlisted the support of this protocol
 
 You can share the guide with the community by sending it to us. Below, in the description, we will publish such instructions.
 
-Solidity is the language used in Free TON to create smart contracts, this extension provides:
+TON Solidity is the language used in Free TON to create smart contracts, this extension provides:
 
 - Syntax highlighting
 - Snippets
