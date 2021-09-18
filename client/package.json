@@ -1,10 +1,10 @@
 {
 	"name": "lsp-ton-solidity-client",
 	"description": "A language server for Solidity language",
-	"author": "Tim Tkachev",
+	"author": "Timuchen",
 	"license": "MIT",
 	"version": "0.0.1",
-	"publisher": "Tim Tkachev",
+	"publisher": "Timuchen",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Timuchen/ton-solidity-language-server"

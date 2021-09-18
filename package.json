@@ -1,5 +1,5 @@
 {
-	"name": "ton-ton-solidity-language-server-bundle",
+	"name": "ton-solidity-language-server-bundle",
 	"description": "A language server for TON Solidity language and example client",
 	"displayName": "TON Solidity Language Support",
 	"license": "MIT",
@@ -8,7 +8,7 @@
 		"type": "git",
 		"url": "https://github.com/Timuchen/ton-solidity-language-server"
 	  },
-	"publisher": "Tim Tkachev",
+	"publisher": "Timuchen",
 	"categories": [
 		"Programming Languages"
 	],

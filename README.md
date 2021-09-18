@@ -1,6 +1,36 @@
 # TON Solidity LSP Example
 
-## Functionality
+[![Version](https://vsmarketplacebadge.apphb.com/version/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle)  
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=juanblanco.solidity)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating-star/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle#review-details)
+
+The language server will start working immediately after installing the [application](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle&ssr=false#overview).
+
+Solidity is the language used in Free TON to create smart contracts, this extension provides:
+
+- Syntax highlighting
+- Snippets
+- Compilation of the current contract (Press F1 Solidity : Compile Current Solidity Contract), or F5
+- Compilation of all the contracts (Press F1 Solidity : Compile all Solidity Contracts), or Ctrl+F5 / Cmd+F5
+- Code completion for all contracts / libraries in the current file and all referenced imports
+- Support for different solidity versions (Remote and local)
+- Support for unique file extension \* .ton
+
+If your editor does not have this plugin installed, then the Solidity code will look something like this:
+![Screenshot](screenshots/1.png)
+
+Once installed, the TON Solidity syntax will be detected automatically.
+![Screenshot](screenshots/2.png)
+Files with \* .ton resolution are supported
+![Screenshot](screenshots/3.png)
+
+By default, it is recommended to write the name of the Tone currency with a capital letter. But you can change this in the server settings.
+![Screenshot](screenshots/4.png)
+
+## Features for developers
+
+If you would like to customize the language server to suit your needs, download the server [source code](https://github.com/Timuchen/ton-solidity-language-server).
 
 This Language Server works for plain text file. It has the following language features:
 
