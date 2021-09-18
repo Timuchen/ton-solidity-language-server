@@ -91,6 +91,11 @@ Free TON extends the standard Solidity functionality - the [description of the T
 
 ## Connecting to various IDE
 
+### VIM
+
 Do you also love VIM? See how to connect TON Solidity syntax highlighting to it:
 [VIM-LSP](https://github.com/prabirshrestha/vim-lsp)
 
+### Atom
+
+Provide integration support for adding [Atom Language Server Protocol Client](https://github.com/atom-community/atom-languageclient)
