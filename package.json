@@ -6,7 +6,7 @@
 	"version": "1.0.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Timuchen/ton-ton-solidity-language-server"
+		"url": "https://github.com/Timuchen/ton-solidity-language-server"
 	  },
 	"publisher": "Tim Tkachev",
 	"categories": [
@@ -23,7 +23,6 @@
 		"vscode": "^1.43.0"
 	},
 	"activationEvents": [
-		"onLanguage:plaintext",
 		"onLanguage:solidity",
 		"onCommand:solidity.compile"
 	],
@@ -81,9 +80,10 @@
 				"ton-solidity"
 			  ],
 			  "extensions": [
-				".sol"
+				".sol",
+				".ton"
 			  ],
-			  "configuration": "./solidity.configuration.json"
+			  "configuration": "./ton-solidity.configuration.json"
 			}
 		  ],
 		"commands": [
@@ -115,7 +115,7 @@
 		  "grammars": [
 			{
 			  "language": "ton-solidity",
-			  "scopeName": "source.solidity",
+			  "scopeName": "source.ton-solidity",
 			  "path": "./syntaxes/ton-solidity.json"
 			}
 		  ]

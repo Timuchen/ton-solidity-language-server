@@ -1,5 +1,5 @@
 {
-	".source.solidity": {
+	".source.ton-solidity": {
 		"pragma ton-solidity":{
 			"prefix": "pragm",
 			"body": "pragma ton-solidity ${1:version};"

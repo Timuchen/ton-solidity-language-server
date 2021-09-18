@@ -1,6 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "freeton-solidity",
+	"name": "ton-solidity",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -462,7 +461,7 @@
                     ]
                 },
                 {
-                    "match": "\\b(address|string\\d*|bytes\\d*|int\\d*|uint\\d*|bool|hash\\d*)\\b",
+                    "match": "\\b(address|nano|nanoTon|nTon|Ton|micro|microTon|milli|milliTon|kiloTon|kTon|megaTon|MTon|gigaTon|GTon|string\\d*|bytes\\d*|int\\d*|uint\\d*|bool|hash\\d*)\\b",
                     "name": "support.type.primitive"
                 }
             ]
@@ -496,7 +495,11 @@
                     "name": "variable.language.transaction"
                 },
                 {
-                    "match": "\\b(tvm\\.sendrawmsg|accept|commit|rawCommit|getData|setData|log|hexdump|bindump|setcode|configParam|rawConfigParam|rawReserve|hash|checkSign|insertPubkey|buildStateInit|buildEmptyData|deploy|code|codeSalt|setCodeSalt|pubkey|setPubkey|setCurrentCode|resetStorage|functionId|encodeBody|exit|exit1|buildExtMsg|buildIntMsg|sendrawmsg)\\b",
+                    "match": "\\b(tvm)\\b",
+                    "name": "variable.language.transaction"
+                },
+                {
+                    "match": "\\b(sendrawmsg|accept|commit|rawCommit|getData|setData|log|hexdump|bindump|setcode|configParam|rawConfigParam|rawReserve|hash|checkSign|insertPubkey|buildStateInit|buildEmptyData|deploy|code|codeSalt|setCodeSalt|pubkey|setPubkey|setCurrentCode|resetStorage|functionId|encodeBody|exit|exit1|buildExtMsg|buildIntMsg|sendrawmsg)\\b",
                     "name": "variable.language.transaction"
                 },
                 {
@@ -526,6 +529,14 @@
                 {
                     "match": "\\b(blockhash|gasleft)\\b",
                     "name": "variable.language.transaction"
+                },
+                {
+                    "match": "\\b(TvmCell|TvmSlice|TvmBuilder|ExtraCurrencyCollection)\\b",
+                    "name": "variable.language.transaction"
+                },
+                {
+                    "match": "\\b(optional)\\b",
+                    "name": "keyword.control.contract"
                 },
                 {
                     "match": "\\b(type)\\b",
@@ -1183,5 +1194,5 @@
         }
 
 	},
-	"scopeName": "source.solidity"
+	"scopeName": "source.ton-solidity"
 }
