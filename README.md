@@ -2,7 +2,13 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle) [![Installs](https://vsmarketplacebadge.apphb.com/installs/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle) [![Rating](https://vsmarketplacebadge.apphb.com/rating-star/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle#review-details)
 
-The language server will start working immediately after installing the [application](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle&ssr=false#overview).
+The language server will start working immediately after installing the [application](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle&ssr=false#overview) VSCode.
+
+But it can be installed for any IDE that supports Language Server Protocol (LSP) technology.
+
+Most likely, your favorite IDE has already enlisted the support of this protocol. You can read about how to install LSP extensions for a specific IDE in its documentation.
+
+You can share the guide with the community by sending it to us. Below, in the description, we will publish such instructions.
 
 Solidity is the language used in Free TON to create smart contracts, this extension provides:
 
