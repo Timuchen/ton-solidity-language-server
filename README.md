@@ -99,3 +99,7 @@ Do you also love VIM? See how to connect TON Solidity syntax highlighting to it:
 ### Atom
 
 Provide integration support for adding [Atom Language Server Protocol Client](https://github.com/atom-community/atom-languageclient)
+
+## License
+
+MIT License. See the [license](README.md) for more details.
