@@ -76,5 +76,6 @@ It also includes an End-to-End test.
 
 ## Documentations
 
-Learn more about LSP on the [Microsoft website](https://code.visualstudio.com/api/language-extensions/language-server-extension-guide)
+Learn more about LSP on the [Microsoft website](https://code.visualstudio.com/api/language-extensions/language-server-extension-guide).
+
 Free TON extends the standard Solidity functionality - the [description of the TON compiler](https://github.com/tonlabs/TON-Solidity-Compiler/blob/master/API.md#special-contract-functions).
