@@ -102,4 +102,4 @@ Provide integration support for adding [Atom Language Server Protocol Client](ht
 
 ## License
 
-MIT License. See the [license](README.md) for more details.
+MIT License. See the [license](LICENSE.md) for more details.
