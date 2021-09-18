@@ -1,0 +1,141 @@
+{
+	"name": "ton-ton-solidity-language-server-bundle",
+	"description": "A language server for TON Solidity language and example client",
+	"displayName": "TON Solidity Language Support",
+	"license": "MIT",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Timuchen/ton-ton-solidity-language-server"
+	  },
+	"publisher": "Tim Tkachev",
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		"solidity",
+		"ton-solidity",
+		"ton-sol",
+		"blockchain",
+		"compiler"
+	],
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"activationEvents": [
+		"onLanguage:plaintext",
+		"onLanguage:solidity",
+		"onCommand:solidity.compile"
+	],
+	"main": "./client/out/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "TON Solidity configuration",
+			"properties": {
+				"languageServerExample.maxNumberOfProblems": {
+					"scope": "resource",
+					"type": "number",
+					"default": 100,
+					"description": "Controls the maximum number TON Solidity compiler errors/warnings the server will return."
+				},
+				"solidity.trace.server": {
+					"scope": "window",
+					"type": "string",
+					"enum": [
+					  "off",
+					  "messages",
+					  "verbose"
+					],
+					"default": "verbose",
+					"description": "Traces the communication between VS Code and the language server."
+				  },
+				  "solidity.compilerOptions.remappings": {
+					"type": "array",
+					"items": {
+					  "type": "object",
+					  "title": "Compiler remappings",
+					  "properties": {
+						"prefix": {
+						  "type": "string",
+						  "description": "The prefix to remap"
+						},
+						"path": {
+						  "type": "string",
+						  "description": "The path to remap the prefix to"
+						}
+					  }
+					},
+					"default": [],
+					"description": "Compiler remappings"
+				  }
+			}
+		},
+		"languages": [
+			{
+			  "id": "ton-solidity",
+			  "aliases": [
+				"Solidity",
+				"solidity",
+				"TON-Solidity",
+				"ton-solidity"
+			  ],
+			  "extensions": [
+				".sol"
+			  ],
+			  "configuration": "./solidity.configuration.json"
+			}
+		  ],
+		"commands": [
+			{
+			  "command": "solidity.compile",
+			  "title": "TON Solidity: Compile Contract"
+			}
+		],
+		"keybindings": [
+			{
+			  "command": "solidity.compile",
+			  "key": "f5",
+			  "mac": "f5",
+			  "when": "editorTextFocus && editorLangId == 'ton-solidity'"
+			},
+			{
+			  "command": "solidity.compile",
+			  "key": "Ctrl+f5",
+			  "mac": "Cmd+f5",
+			  "when": "editorTextFocus && editorLangId == 'ton-solidity'"
+			}
+		  ],
+		  "snippets": [
+			{
+			  "language": "ton-solidity",
+			  "path": "./snippets/ton-solidity.json"
+			}
+		  ],
+		  "grammars": [
+			{
+			  "language": "ton-solidity",
+			  "scopeName": "source.solidity",
+			  "path": "./syntaxes/ton-solidity.json"
+			}
+		  ]
+	},
+	"icon": "images/icon.png",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -b",
+		"watch": "tsc -b -w",
+		"lint": "eslint ./client/src ./server/src --ext .ts,.tsx",
+		"postinstall": "cd client && npm install && cd ../server && npm install && cd ..",
+		"test": "sh ./scripts/e2e.sh"
+	},
+	"devDependencies": {
+		"@types/mocha": "^8.2.2",
+		"@types/node": "^12.12.0",
+		"@typescript-eslint/eslint-plugin": "^4.23.0",
+		"@typescript-eslint/parser": "^4.23.0",
+		"eslint": "^7.26.0",
+		"mocha": "^8.3.2",
+		"typescript": "^4.3.5"
+	}
+}
