@@ -100,6 +100,11 @@ Do you also love VIM? See how to connect TON Solidity syntax highlighting to it:
 
 Provide integration support for adding [Atom Language Server Protocol Client](https://github.com/atom-community/atom-languageclient)
 
+## Examples
+
+Solidity [code examples](https://github.com/tonlabs/samples/tree/master/solidity) from the team Tonlabs.
+If you need to test how the code works, use the examples repository.
+
 ## License
 
 MIT License. See the [license](LICENSE.md) for more details.
