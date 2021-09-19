@@ -60,6 +60,8 @@ It also includes an End-to-End test.
 │   │   ├── test // End to End tests for Language Client / Server
 │   │   └── extension.ts // Language Client entry point
 ├── package.json // The extension manifest.
+├── sctripts
+│   └── e2e.sh // Launcher scripts
 ├── server // Language Server
 │   └── src
 │       └── server.ts // Language Server entry point
