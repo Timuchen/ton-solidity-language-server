@@ -1,4 +1,4 @@
-# TON Solidity LSP Language Server
+# TON Solidity Language Server
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle) [![Installs](https://vsmarketplacebadge.apphb.com/installs/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle) [![Rating](https://vsmarketplacebadge.apphb.com/rating-star/Timuchen.ton-solidity-language-server-bundle.svg)](https://marketplace.visualstudio.com/items?itemName=Timuchen.ton-solidity-language-server-bundle#review-details)
 
