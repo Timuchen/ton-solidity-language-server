@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "ton-solidity" extension will be documented in this file.
+All notable changes to the "TON Solidity Language Server" extension will be documented in this file.
 
 ## [Unreleased]
 
