@@ -18,14 +18,14 @@ TON Solidity is the language used in Free TON to create smart contracts, this ex
 - Compilation of all the contracts (Press F1 Solidity : Compile all Solidity Contracts), or Ctrl+F5 / Cmd+F5
 - Code completion for all contracts / libraries in the current file and all referenced imports
 - Support for different solidity versions (Remote and local)
-- Support for unique file extension \* .ton
+- Support for unique file extension \* .ton, \* .tsol
 
 If your editor does not have this plugin installed, then the Solidity code will look something like this:
 ![Screenshot](screenshots/1.png)
 
 Once installed, the TON Solidity syntax will be detected automatically.
 ![Screenshot](screenshots/2.png)
-Files with \* .ton resolution are supported
+Files with \* .ton, \* .tsol resolution are supported
 ![Screenshot](screenshots/3.png)
 
 By default, it is recommended to write the name of the Ton currency with a capital letter. But you can change this in the server settings.
@@ -42,7 +42,7 @@ If you constantly need to change the server settings or you intend to contribute
 
 If you would like to customize the language server to suit your needs, download the server [source code](https://github.com/Timuchen/ton-solidity-language-server).
 
-This server works with files _.ton and _.sol.
+This server works with files _.ton and _.sol, \_.tsol.
 
 It has the following language features:
 

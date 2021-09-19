@@ -1,6 +1,6 @@
 {
 	"name": "ton-solidity-language-server-bundle",
-	"description": "A language server for TON Solidity language and example client",
+	"description": "A language server for TON Solidity language",
 	"displayName": "TON Solidity Language Support",
 	"license": "MIT",
 	"version": "1.0.2",
@@ -81,6 +81,7 @@
 			  ],
 			  "extensions": [
 				".sol",
+				".tsol",
 				".ton"
 			  ],
 			  "configuration": "./ton-solidity.configuration.json"
